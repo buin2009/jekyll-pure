@@ -10,8 +10,10 @@ a {
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
+    color: rgb(152, 152, 224);
 }
+
+
 
 /* LAYOUT CSS */
 #layout {
@@ -96,6 +98,7 @@ a:focus {
     color: #222;
     margin-bottom: 0.2em;
 }
+
 .post-avatar {
     border-radius: 50px;
     float: right;
