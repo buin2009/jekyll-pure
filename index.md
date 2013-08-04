@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class = "content">
-    <h1 class="content-subhead">Recent Post</h1>
+    <h1 class="content-subhead">Recent Posts</h1>
     {% for post in site.posts limit: 5 %}
         <section class = "post">
             <header class = "post-header">
