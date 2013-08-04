@@ -7,7 +7,7 @@ layout: default
     {% for post in site.posts limit: 5 %}
         <section class = "post">
             <header class = "post-header">
-                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h2 class="post-title"><a href=".{{ post.url }}">{{ post.title }}</a></h2>
                 <p class = "post-meta">
                     Post at {{ post.date | date:"%Y-%m-%d" }}
                 </p>
