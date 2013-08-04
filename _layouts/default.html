@@ -1,32 +1,32 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {% if page.title %}
-        <title>{{ page.title }}</title>
-        {% else %}
-        <title>{{ site.name }}</title>
-        {% endif %}
-        <link rel="stylesheet" href="./css/pure-min.css">
-        <link rel="stylesheet" href="./css/blog.css">
-　　</head>
-　　<body>
-        <div class="pure-g-r" id="layout">
-            <div class="sidebar pure-u">
-                <header class="header">
-                    <hgroup>
-                        <h1 class="brand-title">{{ site.name }}</h1>
-                        <h2 class="brand-tagline">A blog powered by Jekyll-Pure</h2>
-                    </hgroup>
-                </header>
-            </div>
-            <div class="pure-u-1">
-                <div class="posts">
-                    {{ content }}
-                </div>
-            </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.name }}</title>
+    {% endif %}
+    <link rel="stylesheet" href="./css/pure-min.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar pure-u">
+        <header class="header">
+            <hgroup>
+                <h1 class="brand-title">{{ site.name }}</h1>
+                <h2 class="brand-tagline">A blog powered by Jekyll-Pure</h2>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u-1">
+        <div class="posts">
+            {{ content }}
         </div>
-　　</body>
+    </div>
+</div>
+</body>
 </html>
 
