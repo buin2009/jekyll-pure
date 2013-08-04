@@ -8,8 +8,8 @@
     {% else %}
     <title>{{ site.name }}</title>
     {% endif %}
-    <link rel="stylesheet" href="./css/pure-min.css">
-    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="/css/pure-min.css">
+    <link rel="stylesheet" href="/css/blog.css">
 </head>
 <body>
 <div class="pure-g-r" id="layout">
@@ -21,11 +21,7 @@
             </hgroup>
         </header>
     </div>
-    <div class="pure-u-1">
-        <div class="posts">
-            {{ content }}
-        </div>
-    </div>
+    {{ content }}
 </div>
 </body>
 </html>
